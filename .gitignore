@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# pytest
+.pytest_cache/
+
+# misc
+.DS_Store

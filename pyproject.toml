@@ -1,0 +1,18 @@
+[project]
+name = "general-fss-skill"
+version = "0.1.0"
+description = "General-purpose finite-size-scaling research skill and numerical toolkit"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+fit = ["lmfit"]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
